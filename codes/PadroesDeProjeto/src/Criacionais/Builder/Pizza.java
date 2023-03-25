@@ -9,4 +9,10 @@ public class Pizza{
     public void setCobertura(String cobertura){
     this.cobertura = cobertura;
     }
+    public String getTempero(){
+       return this.tempero;        
+    }
+    public String getCobertura(){
+        return this.cobertura;
+    }
 }

@@ -1,12 +1,12 @@
 package Criacionais.Builder;
 
-public class BuilderPizzaCalabresa extends PizzaBuilder{
+public class BuilderPizzaBrigadeiro extends PizzaBuilder{
     Pizza pizza = new Pizza();
     public void buildTempero(){
-        pizza.setTempero("medio");    
+        pizza.setTempero("doce");    
     }
     public void buildCobertura(){
-        pizza.setCobertura("calabresa");
+        pizza.setCobertura("chocolate");
     }
     @Override
     public Pizza getPizza(){

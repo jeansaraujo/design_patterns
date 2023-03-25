@@ -8,4 +8,8 @@ public class BuilderPizzaMarguerita extends PizzaBuilder{
     public void buildCobertura(){
         pizza.setCobertura("tomate");
     }
+    @Override
+    public Pizza getPizza(){
+        return pizza;
     }
+}
