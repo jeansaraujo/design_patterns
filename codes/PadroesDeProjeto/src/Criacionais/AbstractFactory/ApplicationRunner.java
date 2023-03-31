@@ -13,6 +13,7 @@ public class ApplicationRunner{
     }
     public static GuiFactory createOsSpecificFactory(){
         int sys = readFromConfigFile(System.getProperty("os.name") );
+        System.out.println(System.getProperty("os.name"));        
         if(sys == 0){
             return new WinFactory();
         }else{
@@ -22,7 +23,7 @@ public class ApplicationRunner{
     }
     private static int readFromConfigFile(String sisope) {
         switch (sisope){
-            case "Windows 11":
+            case "Windows 10":
                 return 0;
             default:
                 return 1;

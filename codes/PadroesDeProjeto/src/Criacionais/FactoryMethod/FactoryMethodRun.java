@@ -9,5 +9,6 @@ public class FactoryMethodRun {
         //String sexo = "M";
         factory.getPessoa(nome,sexo);
     }
+    
 }
 
