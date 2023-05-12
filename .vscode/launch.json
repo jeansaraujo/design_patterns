@@ -1,0 +1,92 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "ApplicationRunner",
+      "request": "launch",
+      "mainClass": "Criacionais.AbstractFactory.ApplicationRunner",
+      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+    },
+    {
+      "type": "java",
+      "name": "BuilderRun",
+      "request": "launch",
+      "mainClass": "Criacionais.Builder.BuilderRun",
+      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+    },
+    {
+      "type": "java",
+      "name": "FactoryMethodRun",
+      "request": "launch",
+      "mainClass": "Criacionais.FactoryMethod.FactoryMethodRun",
+      "projectName": "IFPE2023ADSArqSoft_43cbed2f",
+      "args": ["Jean", "M"]
+    },
+    {
+      "type": "java",
+      "name": "prototypeRun",
+      "request": "launch",
+      "mainClass": "Criacionais.Prototype.prototypeRun",
+      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+    },
+    {
+      "type": "java",
+      "name": "SingletonRun",
+      "request": "launch",
+      "mainClass": "Criacionais.Singleton.SingletonRun",
+      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+    },
+    {
+      "type": "java",
+      "name": "AdapterRun",
+      "request": "launch",
+      "mainClass": "Estruturais.Adapter.AdapterRun",
+      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+    },
+    {
+      "type": "java",
+      "name": "BridgeRun",
+      "request": "launch",
+      "mainClass": "Estruturais.Bridge.BridgeRun",
+      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+    },
+    {
+      "type": "java",
+      "name": "CompositeRun",
+      "request": "launch",
+      "mainClass": "Estruturais.Composite.CompositeRun",
+      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+    },
+    {
+      "type": "java",
+      "name": "DecoratorRun",
+      "request": "launch",
+      "mainClass": "Estruturais.Decorator.DecoratorRun",
+      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+    },
+    {
+      "type": "java",
+      "name": "FacedeRun",
+      "request": "launch",
+      "mainClass": "Estruturais.Facede.FacedeRun",
+      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+    },
+    {
+      "type": "java",
+      "name": "FlyWheightRun",
+      "request": "launch",
+      "mainClass": "Estruturais.FlyWheight.FlyWheightRun",
+      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+    }
+  ]
+}

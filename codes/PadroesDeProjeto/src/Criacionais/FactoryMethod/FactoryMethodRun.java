@@ -5,8 +5,8 @@ public class FactoryMethodRun {
         FactoryPessoa factory = new FactoryPessoa();
         String nome = args[0];
         String sexo = args[1];
-        //String nome = "Jean";
-        //String sexo = "M";
+      // String nome = "Jean";
+      // String sexo = "F";
         factory.getPessoa(nome,sexo);
     }
     
