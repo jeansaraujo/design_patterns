@@ -11,5 +11,7 @@ public class JanelaDecorator extends Janela{
         drawBarraVertical();
         janelaDecorada.draw();        
     }
-    private void drawBarraVertical(){}
+    private void drawBarraVertical(){
+        System.out.println("Barra Vertical");
+    }
 }

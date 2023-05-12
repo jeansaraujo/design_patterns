@@ -1,5 +1,4 @@
 package Estruturais.Composite;
-import Estruturais.Composite.Composite;
 
 public class CompositeRun {
     public static void main(String[] args) {
@@ -12,11 +11,9 @@ public class CompositeRun {
         Composite c2 = new Composite();
         Composite c3 = new Composite();
 
-        //c.add(folha1);
-        //c.add(folha2);
-
-        //c2.add(folha1);
-
+        c.add(folha1);
+        c.add(folha2);
+        c2.add(folha1);
         c.add(c2);
         c.add(c3);
 
