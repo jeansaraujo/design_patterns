@@ -1,4 +1,4 @@
-# Padrões de Projeto
+# Design Patterns(Padrões de Projeto)
 
 Códigos de exemplo para implementação dos:
 
