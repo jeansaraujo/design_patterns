@@ -16,7 +16,6 @@ public class CompositeRun {
         c2.add(folha1);
         c.add(c2);
         c.add(c3);
-
         c.print();
     }
 }

@@ -13,8 +13,8 @@ public class ApplicationRunner{
     }
     public static GuiFactory createOsSpecificFactory(){
         int sys = readFromConfigFile(System.getProperty("os.name") );
-        System.out.println(System.getProperty("os.name"));        
-        if(sys == 0){
+        //System.out.println(System.getProperty("os.name"));        
+        if(sys == 1){
             return new WinFactory();
         }else{
             return new OSXFactory();

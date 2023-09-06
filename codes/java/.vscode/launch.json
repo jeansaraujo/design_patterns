@@ -6,51 +6,51 @@
   "configurations": [
     {
       "type": "java",
-      "name": "IteratorExemplo",
-      "request": "launch",
-      "mainClass": "Comportamentais.Iterator.IteratorExemplo",
-      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
-    },
-    {
-      "type": "java",
-      "name": "ChainRun",
-      "request": "launch",
-      "mainClass": "Comportamentais.ChainofResponsibility.ChainRun",
-      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
-    },
-    {
-      "type": "java",
-      "name": "StrategyRun",
-      "request": "launch",
-      "mainClass": "Comportamentais.Strategy.StrategyRun",
-      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
-    },
-    {
-      "type": "java",
       "name": "Current File",
       "request": "launch",
       "mainClass": "${file}"
     },
     {
       "type": "java",
+      "name": "ChainRun",
+      "request": "launch",
+      "mainClass": "Comportamentais.ChainOfResponsibility.ChainRun",
+      "projectName": "PadroesDeProjeto_af70740d"
+    },
+    {
+      "type": "java",
+      "name": "IteratorExemplo",
+      "request": "launch",
+      "mainClass": "Comportamentais.Iterator.IteratorExemplo",
+      "projectName": "PadroesDeProjeto_af70740d"
+    },
+    {
+      "type": "java",
+      "name": "StrategyRun",
+      "request": "launch",
+      "mainClass": "Comportamentais.Strategy.StrategyRun",
+      "projectName": "PadroesDeProjeto_af70740d"
+    },
+    {
+      "type": "java",
       "name": "ApplicationRunner",
       "request": "launch",
       "mainClass": "Criacionais.AbstractFactory.ApplicationRunner",
-      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+      "projectName": "PadroesDeProjeto_af70740d"
     },
     {
       "type": "java",
       "name": "BuilderRun",
       "request": "launch",
       "mainClass": "Criacionais.Builder.BuilderRun",
-      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+      "projectName": "PadroesDeProjeto_af70740d"
     },
     {
       "type": "java",
       "name": "FactoryMethodRun",
       "request": "launch",
       "mainClass": "Criacionais.FactoryMethod.FactoryMethodRun",
-      "projectName": "IFPE2023ADSArqSoft_43cbed2f",
+      "projectName": "PadroesDeProjeto_af70740d",
       "args": ["Jean", "M"]
     },
     {
@@ -58,56 +58,56 @@
       "name": "prototypeRun",
       "request": "launch",
       "mainClass": "Criacionais.Prototype.prototypeRun",
-      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+      "projectName": "PadroesDeProjeto_af70740d"
     },
     {
       "type": "java",
       "name": "SingletonRun",
       "request": "launch",
       "mainClass": "Criacionais.Singleton.SingletonRun",
-      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+      "projectName": "PadroesDeProjeto_af70740d"
     },
     {
       "type": "java",
       "name": "AdapterRun",
       "request": "launch",
       "mainClass": "Estruturais.Adapter.AdapterRun",
-      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+      "projectName": "PadroesDeProjeto_af70740d"
     },
     {
       "type": "java",
       "name": "BridgeRun",
       "request": "launch",
       "mainClass": "Estruturais.Bridge.BridgeRun",
-      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+      "projectName": "PadroesDeProjeto_af70740d"
     },
     {
       "type": "java",
       "name": "CompositeRun",
       "request": "launch",
       "mainClass": "Estruturais.Composite.CompositeRun",
-      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+      "projectName": "PadroesDeProjeto_af70740d"
     },
     {
       "type": "java",
       "name": "DecoratorRun",
       "request": "launch",
       "mainClass": "Estruturais.Decorator.DecoratorRun",
-      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+      "projectName": "PadroesDeProjeto_af70740d"
     },
     {
       "type": "java",
       "name": "FacedeRun",
       "request": "launch",
       "mainClass": "Estruturais.Facede.FacedeRun",
-      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+      "projectName": "PadroesDeProjeto_af70740d"
     },
     {
       "type": "java",
       "name": "FlyWheightRun",
       "request": "launch",
       "mainClass": "Estruturais.FlyWheight.FlyWheightRun",
-      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+      "projectName": "PadroesDeProjeto_af70740d"
     }
   ]
 }
