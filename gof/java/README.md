@@ -1,18 +1,18 @@
-## Getting Started
+## Códigos em Java 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Estrutura de pastas de projeto Java no VSCode
 
-## Folder Structure
+## Estrutura do Diretório
 
-The workspace contains two folders by default, where:
+- `src`: Códigos Principais
+- `lib`: Dependencias
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Os códigos executáveis estão localizados na pasta bin
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+> Para alterar a configuração padrão, abrir `.vscode/settings.json` e atualizar itens desejados.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Padrões de Projeto GOF 
 
-## Dependency Management
+Os códigos exemplos do GOF possuem classificações sob o enfoque de Proposito e Enfoque. Com relação ao proposito tem a classificação em Padrões Criacionais, Estruturais e Comportamentais, já com relação ao Enfoque, os padrões se classificam em Padrões de Classe ou Objeto.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Aqui segmentamos os códigos em pastas conforme o proposito do Padrão de Projeto
