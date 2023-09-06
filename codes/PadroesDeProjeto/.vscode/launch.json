@@ -1,0 +1,113 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "ChainRun",
+      "request": "launch",
+      "mainClass": "Comportamentais.ChainOfResponsibility.ChainRun",
+      "projectName": "PadroesDeProjeto_af70740d"
+    },
+    {
+      "type": "java",
+      "name": "IteratorExemplo",
+      "request": "launch",
+      "mainClass": "Comportamentais.Iterator.IteratorExemplo",
+      "projectName": "PadroesDeProjeto_af70740d"
+    },
+    {
+      "type": "java",
+      "name": "StrategyRun",
+      "request": "launch",
+      "mainClass": "Comportamentais.Strategy.StrategyRun",
+      "projectName": "PadroesDeProjeto_af70740d"
+    },
+    {
+      "type": "java",
+      "name": "ApplicationRunner",
+      "request": "launch",
+      "mainClass": "Criacionais.AbstractFactory.ApplicationRunner",
+      "projectName": "PadroesDeProjeto_af70740d"
+    },
+    {
+      "type": "java",
+      "name": "BuilderRun",
+      "request": "launch",
+      "mainClass": "Criacionais.Builder.BuilderRun",
+      "projectName": "PadroesDeProjeto_af70740d"
+    },
+    {
+      "type": "java",
+      "name": "FactoryMethodRun",
+      "request": "launch",
+      "mainClass": "Criacionais.FactoryMethod.FactoryMethodRun",
+      "projectName": "PadroesDeProjeto_af70740d",
+      "args": ["Jean", "M"]
+    },
+    {
+      "type": "java",
+      "name": "prototypeRun",
+      "request": "launch",
+      "mainClass": "Criacionais.Prototype.prototypeRun",
+      "projectName": "PadroesDeProjeto_af70740d"
+    },
+    {
+      "type": "java",
+      "name": "SingletonRun",
+      "request": "launch",
+      "mainClass": "Criacionais.Singleton.SingletonRun",
+      "projectName": "PadroesDeProjeto_af70740d"
+    },
+    {
+      "type": "java",
+      "name": "AdapterRun",
+      "request": "launch",
+      "mainClass": "Estruturais.Adapter.AdapterRun",
+      "projectName": "PadroesDeProjeto_af70740d"
+    },
+    {
+      "type": "java",
+      "name": "BridgeRun",
+      "request": "launch",
+      "mainClass": "Estruturais.Bridge.BridgeRun",
+      "projectName": "PadroesDeProjeto_af70740d"
+    },
+    {
+      "type": "java",
+      "name": "CompositeRun",
+      "request": "launch",
+      "mainClass": "Estruturais.Composite.CompositeRun",
+      "projectName": "PadroesDeProjeto_af70740d"
+    },
+    {
+      "type": "java",
+      "name": "DecoratorRun",
+      "request": "launch",
+      "mainClass": "Estruturais.Decorator.DecoratorRun",
+      "projectName": "PadroesDeProjeto_af70740d"
+    },
+    {
+      "type": "java",
+      "name": "FacedeRun",
+      "request": "launch",
+      "mainClass": "Estruturais.Facede.FacedeRun",
+      "projectName": "PadroesDeProjeto_af70740d"
+    },
+    {
+      "type": "java",
+      "name": "FlyWheightRun",
+      "request": "launch",
+      "mainClass": "Estruturais.FlyWheight.FlyWheightRun",
+      "projectName": "PadroesDeProjeto_af70740d"
+    }
+  ]
+}

@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "IteratorExemplo",
+      "request": "launch",
+      "mainClass": "Comportamentais.Iterator.IteratorExemplo",
+      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+    },
+    {
+      "type": "java",
+      "name": "ChainRun",
+      "request": "launch",
+      "mainClass": "Comportamentais.ChainofResponsibility.ChainRun",
+      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+    },
+    {
+      "type": "java",
+      "name": "StrategyRun",
+      "request": "launch",
+      "mainClass": "Comportamentais.Strategy.StrategyRun",
+      "projectName": "IFPE2023ADSArqSoft_43cbed2f"
+    },
+    {
+      "type": "java",
       "name": "Current File",
       "request": "launch",
       "mainClass": "${file}"

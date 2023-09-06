@@ -15,6 +15,7 @@ public class Computer {
     public void startComputer(){
         cpu.freeze();
         memory.load(0, null);
+        hardDrive.read(5, 20);
         cpu.jump(0);
         cpu.execute();
     }

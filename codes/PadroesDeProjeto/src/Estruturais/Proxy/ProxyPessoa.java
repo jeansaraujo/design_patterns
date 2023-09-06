@@ -12,12 +12,14 @@ public class ProxyPessoa implements Pessoa{
     public String getNome(){
         if(pessoa == null){
             //Apenas cria o objeto real quando chamar este método
-            // pessoa = PessoaDAO.getPessoaByNome(this.nome); // Inexistencia de PessoaDAO
-           // PessoaImplementada pessoa = new PessoaImplementada();
-            // .getNome(this.nome); // Inexistencia de PessoaDAO
+          //   pessoa = PessoaDAO.getPessoaByNome(this.nome); // Inexistencia de PessoaDAO
+            //PessoaImplementada pessoa = new PessoaImplementada();
+            //pessoa.getNome(this.nome); // Inexistencia de PessoaDAO            
+            /** Delega para o objeto real */
+            //return pessoa.getNome();
+            
         }
-        /** Delega para o objeto real */
-        return pessoa.getNome();
+        return "";
     }
 
 }
