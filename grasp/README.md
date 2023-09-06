@@ -1,6 +1,6 @@
 ## Padrões de Projeto GRASP
 
-\_\_General Responsibility Assignment Software Patterns
+General Responsibility Assignment Software Patterns
 
 Descrevem princípios fundamentais de atribuição de responsabilidade a objetos.
 
